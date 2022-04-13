@@ -30,7 +30,6 @@ resized = cv2.resize(img, dim, interpolation=cv2.INTER_AREA)
 
 print('Resized Dimensions : ', resized.shape)
 
-
 # show image
 cv2.imshow("Resized image", resized)
 
